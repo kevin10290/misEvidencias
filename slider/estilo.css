@@ -1,0 +1,46 @@
+/* Estilos generales: Restablece márgenes y rellenos predeterminados en todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del cuerpo de la página */
+body {
+  height: 100vh; /* 100% de la altura de la ventana visible */
+  display: flex; /* Usa el modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  text-align: center; /* Alinea el texto al centro */
+  background-color: rgb(233, 240, 245); /* Color de fondo para el cuerpo */
+}
+
+/* Estilos del contenedor principal */
+.contenedor-principal {
+  width: 50vw; /* Ancho del contenedor principal al 50% del ancho de la ventana */
+  max-width: 600px; /* Ancho máximo del contenedor principal */
+  min-height: 350px; /* Altura mínima del contenedor principal */
+  display: flex; /* Usa el modelo de caja flexible */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una línea */
+  justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+  align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+  background-color: white; /* Color de fondo para el contenedor principal */
+  border-radius: 50px; /* Radio de borde para redondear las esquinas del contenedor */
+}
+
+/* Estilos para elementos con la clase "color" */
+.color {
+  padding: 20px; /* Relleno interno de 20 píxeles */
+  margin: 10px; /* Márgenes externos de 10 píxeles */
+  font-size: 2em; /* Tamaño de fuente de 2em (dos veces el tamaño predeterminado) */
+  font-weight: bold; /* Texto en negrita */
+  font-family: Georgia, "Times New Roman", Times, serif; /* Familia de fuentes */
+  display: flex; /* Usa el modelo de caja flexible */
+  flex-direction: column; /* Coloca los elementos en columna */
+  justify-content: space-around; /* Distribuye uniformemente el espacio alrededor de los elementos */
+  align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+}
+
+/* Estilos para las etiquetas <label> y los párrafos <p> */
+label, p {
+  margin: 20px; /* Márgenes externos de 20 píxeles */
+}
